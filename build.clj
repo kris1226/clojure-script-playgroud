@@ -5,3 +5,7 @@
                 :output-dir "out"
                 :target :nodejs
                 :verbose true})
+;
+;(require 'cljs.build.api)
+;
+;(cljs.build.api/build "src" {:output-to "out/main.js"})
